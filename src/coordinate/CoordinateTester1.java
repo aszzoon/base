@@ -14,6 +14,12 @@ public class CoordinateTester1 {
 		System.out.println("y좌표:");
 		double y = sc.nextDouble();
 
-		Coordinate p = new Coordinate
+		Coordinate p = new Coordinate(x, y);
+		System.out.println();
+
+		Coordinate q = p;
+		q.set(9.9, 9.9);
+		System.out.println("p=(" + p.getX() + ", " + p.getY() + ") ");
+		System.out.println("p=(" + p.getX() + ", " + p.getY() + ") ");
 	}
 }
